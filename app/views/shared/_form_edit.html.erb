@@ -1,0 +1,12 @@
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :hypothetical %>
+  <%= f.check_box :hypothetical %>
+
+  <%= f.label :solo %>
+  <%= f.check_box :solo %>
+
+  <%= f.submit %>
+<% end %>

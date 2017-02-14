@@ -1,0 +1,8 @@
+
+
+<h1><%= "Welcome! to the #{@task.title} task page" %></h1>
+<h3><%= "This task, you bet it's #{@task.hypothetical == true ? '' : 'not'} hypothetical" %></h1>
+<h3><%= "Its only for one-person? #{@task.solo == true ? 'yup' : 'nope'}, of course it #{@task.solo == true ? 'is' : 'isn\'t'}" %></h1>
+
+<%= link_to "Back to Winnipeg!", tasks_path %>
+
